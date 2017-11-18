@@ -8,8 +8,8 @@ public class CellTest
     public void FooSet()
     {
         Cell cell = new Cell();
-        cell.SetFoo(5150);
-        Assert.AreEqual(5150, cell.GetFoo());
+        cell.Foo = (5150);
+        Assert.AreEqual(5150, cell.Foo);
     }
 }
 

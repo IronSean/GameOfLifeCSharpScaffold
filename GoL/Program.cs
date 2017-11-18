@@ -11,8 +11,8 @@ namespace GoL
         static void Main()
         {
             Cell cell = new Cell();
-            cell.SetFoo(5150);
-            Console.WriteLine("TRACER: " + cell.GetFoo());
+            cell.Foo = (5150);
+            Console.WriteLine("TRACER: " + cell.Foo);
             Console.ReadLine();
         }
     }
